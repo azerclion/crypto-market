@@ -49,6 +49,7 @@ interface IChartProps {
 const Chart = ({ coinId }: IChartProps) => {
   // eslint-disable-next-line
   const [isDarkMode, _] = useRecoilState(themeToggleState);
+  // eslint-disable-next-line
   const [isLoading, setIsLoading] = useState(false);
 
   // const { isLoading, data: chartData } = useQuery<ICoinChartOHLC[]>(
